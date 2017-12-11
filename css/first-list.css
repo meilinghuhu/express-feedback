@@ -1,0 +1,21 @@
+.center .btns {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+.center .input-box {
+    width: 80%;
+    height: 40px;
+    
+} 
+
+ * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+} 
+.input-box input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+
+}

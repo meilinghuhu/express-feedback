@@ -1,0 +1,75 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	background-color: #223233;
+	height: 100%;
+}
+.login{
+	width : 350px;
+	height: 238px;
+	background-color:#fff;
+	border-radius: 10px;
+	margin: 100px auto;
+	position: relative;
+}
+.login .top {
+	height: 61px;
+	line-height: 61px;
+	font-size: 18px;
+	color: #fff;
+	background-color: #1078b0;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+}
+.login .center {
+	line-height: 40px;
+	padding: 15px 0px 0px 30px;
+	box-sizing: border-box;
+	
+}
+.login .center span {
+	display: inline-block;
+	width: 80px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.login .center input {
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.login .center a {
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	bottom: 30px;
+}
+.login .center .reset {
+	left: 102px;
+}
+.login .center button {
+	background-color: #fff;
+	border: none;
+	padding: 5px 10px ;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.login .center .log {
+	right: 84px;
+	background-color: #1078b0;
+	border: 1px solid #1078b0;
+}

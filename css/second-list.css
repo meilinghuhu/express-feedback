@@ -1,0 +1,48 @@
+.center .btns {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+.modal-content {
+    width: 50%;
+    height: 400px;
+}
+.center .input-box {
+    width: 80%;
+    height: 250px;
+    color: black;
+    line-height: 40px;
+} 
+
+.center select {
+    display: inline-block;
+    width: 40%;
+}
+
+ * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+} 
+.input-box .text {
+    border: 1px solid #ccc;
+    border-radius: 3px ;
+    width: 100%;
+    height: 30px;
+
+}
+
+.center table  img {
+    width: 80px;
+}
+
+/* 上传图片 */
+
+.center .logo img{
+    margin-top: 20px;
+    width: 100px;
+}
+
+
+/* 分类页 */
+nav {
+    text-align: right;
+}

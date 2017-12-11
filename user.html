@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/comem.css">
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- 遮罩层 -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">温馨提示</h4>
+                </div>
+                <div class="modal-body">
+                    <p class="fa fa-exclamation-triangle">您确定要退出后台管理系统吗?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 侧边栏 -->
+
+    <div class="slider">
+        <!-- 头像 -->
+        <div class="user">
+            <img src="images/default.png" alt="">
+            <span>超级管理员</span>
+        </div>
+        <!-- 列表部分 -->
+        <div class="home-list">
+            <ul>
+                <li class="fff"><a href="user.html" class="fa fa-user" >用户管理</a></li>
+                <li>
+                    <a class="fa fa-list-ul "  data-toggle="collapse" href="#collapseExample">分类管理 </a>
+                   
+                        
+                        <ul class="list-ul" id="box">
+                            <li><a href="first-list.html">一级分类</a></li>
+                            <li><a href="second-list.html">二级分类</a></li>
+                        </ul>
+
+
+                    
+
+                </li>
+                <li><a href="javascript:;" class="fa fa-tags">商品管理</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- 顶部 -->
+    <div class="top">
+        <h3>ITCAST</h3>
+        <a href="javascript:;" class="fa fa-bars slider-hide"></a>
+
+        <!-- Button trigger modal -->
+        <button type="button" data-toggle="modal" data-target="#myModal">
+            <a href="javascript:;" class="fa fa-sign-out top-go"></a>
+        </button>
+
+    </div>
+
+    <!-- 中心部分 -->
+    <div class="center">
+        <!-- 顶部导航 -->
+        <div class="center-top">
+            <ul>
+                <li><a href="javascript:;">管理系统</a></li>
+                <li>/</li>
+                <li><a href="javascript:;">用户管理</a></li>
+            </ul>
+        </div>
+        <!-- 用户列表 -->
+        <div class="bs-example" data-example-id="bordered-table">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th>用户名</th>
+                        <th>手机号</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>
+                            <button type="button" class="btn btn-danger">操作</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/comen.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
+
+</body>
+
+</html>
